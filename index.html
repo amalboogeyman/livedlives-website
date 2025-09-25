@@ -1,0 +1,155 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Lived Lives</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex h-auto min-h-screen w-full flex-col bg-[#f8fcfb] group/design-root overflow-x-hidden" style='font-family: Inter, "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7f3f2] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#0d1b1a]">
+            <div class="h-8 w-8 flex-shrink-0">
+              <img src="images/logo.png" alt="Lived Lives Logo" class="h-full w-full object-contain rounded-lg" />
+            </div>
+            <a href="index.html" class="text-[#0d1b1a] text-lg font-bold leading-tight tracking-[-0.015em] hover:text-[#13ecda] transition-colors">Lived Lives</a>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#0d1b1a] text-sm font-medium leading-normal hover:text-[#13ecda] transition-colors" href="how_it_works.html">How it works</a>
+              <a class="text-[#0d1b1a] text-sm font-medium leading-normal hover:text-[#13ecda] transition-colors" href="mission.html">Our Mission</a>
+              <a class="text-[#0d1b1a] text-sm font-medium leading-normal hover:text-[#13ecda] transition-colors" href="contact_us.html">Contact us</a>
+            </div>
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#13ecda] text-[#0d1b1a] text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Get started</span>
+            </button>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:p-4">
+                <div
+                  class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4"
+                  style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("images/hero.jpg");'
+                >
+                  <div class="flex flex-col gap-2 text-center">
+                    <h1
+                      class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
+                    >
+                      Authentic peer support for AYA cancer survivors
+                    </h1>
+                    <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                      Lived Lives connects Adolescent & Young Adult (AYA) cancer survivors with authentic, anonymous peer support through conversational AI. Share your story or find solace in the
+                      experiences of others through engaging conversations.
+                    </h2>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#13ecda] text-[#0d1b1a] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                  >
+                    <span class="truncate">Start a Conversation</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col gap-10 px-4 py-10 @container">
+               <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-0">
+                <div class="flex flex-1 gap-3 rounded-lg border border-[#cfe7e5] bg-[#f8fcfb] p-4 flex-col">
+                  <div class="flex items-center gap-3">
+                    <div class="text-[#0d1b1a]" data-icon="ShieldCheck" data-size="24px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M208,40H48A16,16,0,0,0,32,56v58.78c0,89.61,75.82,119.34,91,124.39a15.53,15.53,0,0,0,10,0c15.2-5.05,91-34.78,91-124.39V56A16,16,0,0,0,208,40Zm0,74.79c0,78.42-66.35,104.62-80,109.18-13.53-4.51-80-30.69-80-109.18V56H208ZM82.34,141.66a8,8,0,0,1,11.32-11.32L112,148.68l50.34-50.34a8,8,0,0,1,11.32,11.32l-56,56a8,8,0,0,1-11.32,0Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <h2 class="text-[#0d1b1a] text-base font-bold leading-tight">Anonymous Conversations</h2>
+                  </div>
+                  <p class="text-[#0d1b1a] text-sm font-normal leading-normal">
+                    Connect with peers in a safe, anonymous space. Share your experiences without revealing your identity.
+                  </p>
+                </div>
+                <div class="flex flex-1 gap-3 rounded-lg border border-[#cfe7e5] bg-[#f8fcfb] p-4 flex-col">
+                  <div class="flex items-center gap-3">
+                    <div class="text-[#0d1b1a]" data-icon="Users" data-size="24px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M117.25,157.92a60,60,0,1,0-66.5,0A95.83,95.83,0,0,0,3.53,195.63a8,8,0,1,0,13.4,8.74,80,80,0,0,1,134.14,0,8,8,0,0,0,13.4-8.74A95.83,95.83,0,0,0,117.25,157.92ZM40,108a44,44,0,1,1,44,44A44.05,44.05,0,0,1,40,108Zm210.14,98.7a8,8,0,0,1-11.07-2.33A79.83,79.83,0,0,0,172,168a8,8,0,0,1,0-16,44,44,0,1,0-16.34-84.87,8,8,0,1,1-5.94-14.85,60,60,0,0,1,55.53,105.64,95.83,95.83,0,0,1,47.22,37.71A8,8,0,0,1,250.14,206.7Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <h2 class="text-[#0d1b1a] text-base font-bold leading-tight">From one human to another</h2>
+                  </div>
+                  <p class="text-[#0d1b1a] text-sm font-normal leading-normal">
+                    Engage in genuine conversations with others who understand your journey. Our AI ensures authentic peer interactions.
+                  </p>
+                </div>
+                <div class="flex flex-1 gap-3 rounded-lg border border-[#cfe7e5] bg-[#f8fcfb] p-4 flex-col">
+                  <div class="flex items-center gap-3">
+                    <div class="text-[#0d1b1a]" data-icon="Clock" data-size="24px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm64-88a8,8,0,0,1-8,8H128a8,8,0,0,1-8-8V72a8,8,0,0,1,16,0v48h48A8,8,0,0,1,192,128Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <h2 class="text-[#0d1b1a] text-base font-bold leading-tight">Always Available</h2>
+                  </div>
+                  <p class="text-[#0d1b1a] text-sm font-normal leading-normal">
+                    Access support whenever you need it, 24/7. Our platform is always ready to listen and connect you with peers.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="@container">
+              <div class="flex flex-col justify-end gap-6 px-4 py-10 @[480px]:gap-8 @[480px]:px-10 @[480px]:py-20">
+                <div class="flex flex-col gap-2 text-center">
+                  <h1
+                    class="text-[#0d1b1a] tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px] mx-auto"
+                  >
+                    Contribute to the Community
+                  </h1>
+                  <p class="text-[#0d1b1a] text-base font-normal leading-normal max-w-[720px] mx-auto">
+                    Your story can make a difference. Help others by sharing your lived experience and insights
+                  </p>
+                </div>
+                <div class="flex flex-1 justify-center">
+                  <div class="flex justify-center">
+                    <button
+                      class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#13ecda] text-[#0d1b1a] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] grow"
+                    >
+                      <span class="truncate">Share Your Story</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="flex justify-center">
+          <div class="flex max-w-[960px] flex-1 flex-col">
+            <footer class="flex flex-col gap-6 px-5 py-10 text-center @container">
+              <div class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
+                <a class="text-[#4c9a93] text-base font-normal leading-normal min-w-40" href="#">Privacy Policy</a>
+                <a class="text-[#4c9a93] text-base font-normal leading-normal min-w-40" href="#">Terms of Service</a>
+                <a class="text-[#4c9a93] text-base font-normal leading-normal min-w-40" href="#">Contact Us</a>
+              </div>
+              <p class="text-[#4c9a93] text-base font-normal leading-normal">@2025 Lived Lives. All rights reserved.</p>
+            </footer>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
